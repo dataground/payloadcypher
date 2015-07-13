@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1436772419">
+  <project timestamp="1436772419">
+    <package name="Dataground">
+      <file name="/Users/pim/web/dataground/payloadcypher/src/Dataground/PayloadCypher.php">
+        <class name="PayloadCypher" namespace="Dataground">
+          <metrics methods="15" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="55" coveredstatements="46" elements="70" coveredelements="56"/>
+        </class>
+        <line num="61" type="method" name="setOnPrivateKeyLoad" crap="1" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="73" type="method" name="setOnPublicKeyLoad" crap="1" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="82" type="method" name="binToArmor" crap="1" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="91" type="method" name="armorToBin" crap="1" count="1"/>
+        <line num="93" type="stmt" count="1"/>
+        <line num="101" type="method" name="setPublicKey" crap="2.01" count="1"/>
+        <line num="103" type="stmt" count="1"/>
+        <line num="105" type="stmt" count="1"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="111" type="stmt" count="1"/>
+        <line num="112" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="114" type="stmt" count="1"/>
+        <line num="120" type="method" name="setPrivateKey" crap="1" count="1"/>
+        <line num="122" type="stmt" count="1"/>
+        <line num="123" type="stmt" count="1"/>
+        <line num="128" type="method" name="setChunkDelimiter" crap="2" count="0"/>
+        <line num="130" type="stmt" count="0"/>
+        <line num="131" type="stmt" count="0"/>
+        <line num="136" type="method" name="setKeyName" crap="1" count="1"/>
+        <line num="138" type="stmt" count="1"/>
+        <line num="139" type="stmt" count="1"/>
+        <line num="146" type="method" name="encryptString" crap="3.00" count="1"/>
+        <line num="148" type="stmt" count="1"/>
+        <line num="149" type="stmt" count="1"/>
+        <line num="150" type="stmt" count="1"/>
+        <line num="151" type="stmt" count="1"/>
+        <line num="152" type="stmt" count="1"/>
+        <line num="155" type="stmt" count="1"/>
+        <line num="156" type="stmt" count="1"/>
+        <line num="158" type="stmt" count="1"/>
+        <line num="159" type="stmt" count="1"/>
+        <line num="161" type="stmt" count="1"/>
+        <line num="162" type="stmt" count="0"/>
+        <line num="165" type="stmt" count="1"/>
+        <line num="166" type="stmt" count="1"/>
+        <line num="168" type="stmt" count="1"/>
+        <line num="176" type="method" name="decryptString" crap="3.00" count="1"/>
+        <line num="178" type="stmt" count="1"/>
+        <line num="179" type="stmt" count="1"/>
+        <line num="181" type="stmt" count="1"/>
+        <line num="182" type="stmt" count="1"/>
+        <line num="183" type="stmt" count="1"/>
+        <line num="185" type="stmt" count="1"/>
+        <line num="186" type="stmt" count="1"/>
+        <line num="187" type="stmt" count="1"/>
+        <line num="189" type="stmt" count="1"/>
+        <line num="190" type="stmt" count="0"/>
+        <line num="193" type="stmt" count="1"/>
+        <line num="194" type="stmt" count="1"/>
+        <line num="196" type="stmt" count="1"/>
+        <line num="212" type="method" name="objectToEncryptedJson" crap="1" count="1"/>
+        <line num="214" type="stmt" count="1"/>
+        <line num="222" type="method" name="encryptedJsonToObject" crap="1" count="1"/>
+        <line num="224" type="stmt" count="1"/>
+        <line num="232" type="method" name="arrayToEncryptedJson" crap="1" count="1"/>
+        <line num="234" type="stmt" count="1"/>
+        <line num="243" type="method" name="encryptedJsonToArray" crap="1" count="1"/>
+        <line num="245" type="stmt" count="1"/>
+        <line num="246" type="stmt" count="1"/>
+        <line num="253" type="method" name="encryptedJsonDump" crap="2" count="0"/>
+        <line num="256" type="stmt" count="0"/>
+        <line num="257" type="stmt" count="0"/>
+        <line num="258" type="stmt" count="0"/>
+        <line num="259" type="stmt" count="0"/>
+        <metrics loc="259" ncloc="144" classes="1" methods="15" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="55" coveredstatements="46" elements="70" coveredelements="56"/>
+      </file>
+    </package>
+    <package name="ForceUTF8">
+      <file name="/Users/pim/web/dataground/payloadcypher/vendor/neitanod/forceutf8/src/ForceUTF8/Encoding.php">
+        <class name="Encoding" namespace="ForceUTF8">
+          <metrics methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="103" coveredstatements="22" elements="112" coveredelements="22"/>
+        </class>
+        <line num="149" type="method" name="toUTF8" crap="215.47" count="1"/>
+        <line num="175" type="stmt" count="1"/>
+        <line num="176" type="stmt" count="1"/>
+        <line num="177" type="stmt" count="0"/>
+        <line num="179" type="stmt" count="0"/>
+        <line num="180" type="stmt" count="0"/>
+        <line num="181" type="stmt" count="0"/>
+        <line num="182" type="stmt" count="1"/>
+        <line num="184" type="stmt" count="1"/>
+        <line num="185" type="stmt" count="0"/>
+        <line num="186" type="stmt" count="0"/>
+        <line num="187" type="stmt" count="1"/>
+        <line num="190" type="stmt" count="1"/>
+        <line num="191" type="stmt" count="1"/>
+        <line num="192" type="stmt" count="1"/>
+        <line num="193" type="stmt" count="1"/>
+        <line num="194" type="stmt" count="1"/>
+        <line num="195" type="stmt" count="1"/>
+        <line num="196" type="stmt" count="1"/>
+        <line num="197" type="stmt" count="1"/>
+        <line num="198" type="stmt" count="1"/>
+        <line num="199" type="stmt" count="0"/>
+        <line num="200" type="stmt" count="0"/>
+        <line num="201" type="stmt" count="0"/>
+        <line num="202" type="stmt" count="1"/>
+        <line num="203" type="stmt" count="1"/>
+        <line num="204" type="stmt" count="1"/>
+        <line num="206" type="stmt" count="1"/>
+        <line num="207" type="stmt" count="0"/>
+        <line num="208" type="stmt" count="0"/>
+        <line num="209" type="stmt" count="0"/>
+        <line num="210" type="stmt" count="0"/>
+        <line num="211" type="stmt" count="0"/>
+        <line num="212" type="stmt" count="0"/>
+        <line num="213" type="stmt" count="0"/>
+        <line num="215" type="stmt" count="0"/>
+        <line num="216" type="stmt" count="0"/>
+        <line num="217" type="stmt" count="0"/>
+        <line num="218" type="stmt" count="0"/>
+        <line num="219" type="stmt" count="0"/>
+        <line num="220" type="stmt" count="0"/>
+        <line num="221" type="stmt" count="0"/>
+        <line num="222" type="stmt" count="0"/>
+        <line num="224" type="stmt" count="0"/>
+        <line num="225" type="stmt" count="0"/>
+        <line num="226" type="stmt" count="0"/>
+        <line num="227" type="stmt" count="0"/>
+        <line num="229" type="stmt" count="1"/>
+        <line num="230" type="stmt" count="0"/>
+        <line num="231" type="stmt" count="0"/>
+        <line num="232" type="stmt" count="0"/>
+        <line num="233" type="stmt" count="0"/>
+        <line num="234" type="stmt" count="0"/>
+        <line num="235" type="stmt" count="0"/>
+        <line num="237" type="stmt" count="0"/>
+        <line num="238" type="stmt" count="1"/>
+        <line num="240" type="stmt" count="1"/>
+        <line num="241" type="stmt" count="1"/>
+        <line num="243" type="stmt" count="0"/>
+        <line num="247" type="method" name="toWin1252" crap="20" count="0"/>
+        <line num="248" type="stmt" count="0"/>
+        <line num="249" type="stmt" count="0"/>
+        <line num="250" type="stmt" count="0"/>
+        <line num="251" type="stmt" count="0"/>
+        <line num="252" type="stmt" count="0"/>
+        <line num="253" type="stmt" count="0"/>
+        <line num="254" type="stmt" count="0"/>
+        <line num="256" type="stmt" count="0"/>
+        <line num="260" type="method" name="toISO8859" crap="2" count="0"/>
+        <line num="261" type="stmt" count="0"/>
+        <line num="264" type="method" name="toLatin1" crap="2" count="0"/>
+        <line num="265" type="stmt" count="0"/>
+        <line num="268" type="method" name="fixUTF8" crap="20" count="0"/>
+        <line num="269" type="stmt" count="0"/>
+        <line num="270" type="stmt" count="0"/>
+        <line num="271" type="stmt" count="0"/>
+        <line num="272" type="stmt" count="0"/>
+        <line num="273" type="stmt" count="0"/>
+        <line num="276" type="stmt" count="0"/>
+        <line num="277" type="stmt" count="0"/>
+        <line num="278" type="stmt" count="0"/>
+        <line num="279" type="stmt" count="0"/>
+        <line num="280" type="stmt" count="0"/>
+        <line num="281" type="stmt" count="0"/>
+        <line num="282" type="stmt" count="0"/>
+        <line num="285" type="method" name="UTF8FixWin1252Chars" crap="2" count="0"/>
+        <line num="290" type="stmt" count="0"/>
+        <line num="293" type="method" name="removeBOM" crap="6" count="0"/>
+        <line num="294" type="stmt" count="0"/>
+        <line num="295" type="stmt" count="0"/>
+        <line num="296" type="stmt" count="0"/>
+        <line num="297" type="stmt" count="0"/>
+        <line num="300" type="method" name="normalizeEncoding" crap="6" count="0"/>
+        <line num="302" type="stmt" count="0"/>
+        <line num="303" type="stmt" count="0"/>
+        <line num="305" type="stmt" count="0"/>
+        <line num="306" type="stmt" count="0"/>
+        <line num="307" type="stmt" count="0"/>
+        <line num="308" type="stmt" count="0"/>
+        <line num="309" type="stmt" count="0"/>
+        <line num="310" type="stmt" count="0"/>
+        <line num="311" type="stmt" count="0"/>
+        <line num="312" type="stmt" count="0"/>
+        <line num="314" type="stmt" count="0"/>
+        <line num="316" type="stmt" count="0"/>
+        <line num="317" type="stmt" count="0"/>
+        <line num="320" type="stmt" count="0"/>
+        <line num="323" type="method" name="encode" crap="12" count="0"/>
+        <line num="325" type="stmt" count="0"/>
+        <line num="326" type="stmt" count="0"/>
+        <line num="327" type="stmt" count="0"/>
+        <line num="328" type="stmt" count="0"/>
+        <metrics loc="330" ncloc="236" classes="1" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="103" coveredstatements="22" elements="112" coveredelements="22"/>
+      </file>
+    </package>
+    <metrics files="2" loc="589" ncloc="380" classes="2" methods="24" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="158" coveredstatements="68" elements="182" coveredelements="78"/>
+  </project>
+</coverage>
