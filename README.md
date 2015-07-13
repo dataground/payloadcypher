@@ -27,11 +27,10 @@ Create RSA Key:
 ## Usage
     $payloadCypher = new PayloadCypher();
 
-    // This public key will be loaded on encryptions
+    // This public key will be loaded on encryption
     $payloadCypher->setOnPublicKeyLoad(
         function () {
-            $key = file_get_contents('MY001.pub.pem');
-            return array($keyName => $key);
+            return array('MY001' => file_get_contents('MY001.pub.pem'));
         }
     );
 
@@ -39,8 +38,7 @@ Create RSA Key:
     // When there is no need to decrypt this callback can be omitted
     $payloadCypher->setOnPrivateKeyLoad(
         function ($keyName) {
-            $key = file_get_contents($keyName.'.pem');
-            return array($keyName => $key);
+            return array($keyName => file_get_contents($keyName.'.pem'));
         }
     );
     
