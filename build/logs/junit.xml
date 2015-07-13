@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="PayloadCypher" tests="1" assertions="81" failures="0" errors="0" time="42.034810">
-    <testsuite name="PayloadCypherTest" file="/Users/pim/web/dataground/payloadcypher/tests/Dataground/PayloadCypherTest.php" tests="1" assertions="81" failures="0" errors="0" time="42.034810">
-      <testcase name="testEncDec" class="PayloadCypherTest" file="/Users/pim/web/dataground/payloadcypher/tests/Dataground/PayloadCypherTest.php" line="14" assertions="81" time="42.034810"/>
-    </testsuite>
-  </testsuite>
-</testsuites>

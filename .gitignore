@@ -1,6 +1,7 @@
 composer.phar
 vendor/
 .idea/
+build/
 var/keys/*.pem
 *~
 .DS_Store
