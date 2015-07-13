@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4c3874b3190482dd120f2afc0faede6a",
+    "hash": "d69d6213a98275938c94a5aa682682be",
     "packages": [
         {
             "name": "neitanod/forceutf8",
@@ -998,6 +998,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "5.5.*"
+    },
     "platform-dev": []
 }
