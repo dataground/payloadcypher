@@ -3,7 +3,7 @@
     "description": "String/Array/Object/JSON asymetric encryption library using PHP OpenSSL RSA",
     "license": "GPL",
     "require": {
-        "php" : "5.5.*",
+        "php" : "5.4.*",
         "neitanod/forceutf8": "^1.4"
     },
     "require-dev": {
