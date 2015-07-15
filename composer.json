@@ -9,6 +9,17 @@
     "require-dev": {
         "phpunit/phpunit": "^4.7"
     },
+    "keywords": [
+        "encryption",
+        "encrypt",
+        "decryption",
+        "decrypt",
+        "rsa",
+        "json",
+        "aes",
+        "openssl",
+        "ssl"
+    ],
     "autoload": {
         "psr-0": {
             "Dataground": "src/"
