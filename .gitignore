@@ -4,4 +4,5 @@ vendor/
 build/
 var/keys/*.pem
 *~
+composer.lock
 .DS_Store
