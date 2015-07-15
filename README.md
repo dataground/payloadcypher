@@ -1,4 +1,4 @@
-# Payload Cypher
+# Payload Cypher [![Build Status](https://travis-ci.org/dataground/payloadcypher.svg)](https://travis-ci.org/dataground/payloadcypher)
 String/Array/Object/JSON asymetric encryption library using PHP OpenSSL RSA.
 Supports endless payload length (only limited by memory) by using payload chunking algoritm. 
 Good for secure storage of playloads in a database. Supports multiple keys (key rotation) by prefixing the payload output.
